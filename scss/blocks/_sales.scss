@@ -1,0 +1,41 @@
+.sales__item {
+    width: 360px;
+    min-height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+}
+
+.sales__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.sales__item-accesories {
+    width: 100%;
+}
+
+.sales__item-text-wrp {
+    position: absolute;
+    text-transform: uppercase;
+}
+
+.sales__item-men {
+    margin: 0 30px;
+}
+
+.sales__item-text {
+    color: $white-text;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.sales__item-title {
+    font-size: 24px;
+    line-height: 29px;
+    color: $pink-text;
+}

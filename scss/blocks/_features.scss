@@ -1,0 +1,30 @@
+.features {
+    background: $black;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 104px 0;
+}
+
+
+.features__item {
+    width: 360px;
+    height: 134px;
+}
+
+.features__item-title {
+    margin: 28px 0 16px;
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #FBFBFB;
+}
+
+.features__item-text {
+    color: #FBFBFB;
+    font-weight: 300;
+}
