@@ -1,0 +1,18 @@
+.copy-networks_wrp {
+    background: $black;
+}
+
+.copy {
+    margin: 30px 0;
+    font-weight: 300;
+    font-family: lato;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FBFBFB;
+}
+
+.copy-networks {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

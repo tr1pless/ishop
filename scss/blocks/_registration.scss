@@ -1,0 +1,60 @@
+.registration {
+    position: relative;
+    background-color: #F8F3F4;
+    height: 150px;
+}
+
+.registration__wrp {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.registration__link-wrp:hover .registration__link,
+.registration__link-wrp:active .registration__link,
+.registration__link-wrp:focus .registration__link {
+    background: $pink-text;
+    color: $white-text;
+}
+
+.registration__link {
+    border: 1px solid $pink-text;
+    color: $pink-text;
+    font-size: 14px;
+    line-height: 17px;
+    background: none;
+    text-decoration: none;
+    padding: 16px 29px;
+    text-transform: uppercase;
+}
+
+.registration__link-wrp {
+    margin: 47px 0 112px;
+}
+
+.registration__link-img {
+    padding-left: 20px;
+}
+
+.registration__input {
+    width: 325px;
+    height: 45px;
+    margin-bottom: 20px;
+    padding-left: 17px;
+}
+
+.registration__title {
+    text-transform: uppercase;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    color: $pink-text;
+    padding-top: 60px;
+}
+
+.h3-registration {
+    text-transform: capitalize;
+    font-weight: 300;
+    line-height: 19px;
+    font-size: 16px;
+    margin: 64px 0px 21px;
+}

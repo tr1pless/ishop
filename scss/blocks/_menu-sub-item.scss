@@ -1,0 +1,15 @@
+.menu-sub-item__item-link {
+    text-transform: capitalize;
+    color: #6F6E6E;
+    @include font(14px, 17px, 400, normal);
+    margin: 0 0 12px 55px;
+    text-decoration: none;
+    display: block;
+}
+
+.menu-sub-item__title {
+    @include font(14px, 17px, 400, normal);
+    color: $pink-text;
+    margin: 20px 0 12px 33px;
+    text-transform: uppercase;
+}
