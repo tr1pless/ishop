@@ -1,4 +1,9 @@
 .footer_wrp {
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+    }
+
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -9,6 +14,10 @@
     max-width: 360px;
     max-height: 225px;
     margin: 96px 0 126px;
+
+    @include tablet {
+        margin: 53px 0 48px;
+    }
 }
 
 .footer__wrp-background {
@@ -39,10 +48,24 @@
     line-height: 30px;
     font-weight: 400;
     text-transform: uppercase;
+
+    @include mobile {
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 22px;
+    }
 }
 
 .footer__subscribe {
     margin: 150px 0 0;
+
+    @include tablet {
+        margin-bottom: 140px;
+    }
+
+    @include mobile {
+        margin: 59px auto 110px;
+    }
 }
 
 .footer__subscribe-input {
@@ -53,6 +76,10 @@
     border: 0;
     font-weight: 400;
     font-family: lato;
+
+    @include mobile {
+        width: 58%;
+    }
 }
 
 .footer__subscribe-button:hover,
@@ -71,7 +98,19 @@
     border-radius: 0 49px 49px 0;
     height: 49px;
     width: 100px;
-    transition: 1s
+    transition: 1s;
+    position: relative;
+    margin-left: -2px;
+
+    @include mobile {
+        width: 30%;
+    }
+}
+
+.footer__networks {
+    @include mobile {
+        margin: 0 auto;
+    }
 }
 
 .footer__networks-list {

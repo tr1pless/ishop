@@ -7,6 +7,14 @@
 .registration__wrp {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.registration__form-wrp {
+    @include tablet {
+        max-width: 47%;
+        margin: 40px 0 0;
+    }
 }
 
 .registration__link-wrp:hover .registration__link,
@@ -29,6 +37,10 @@
 
 .registration__link-wrp {
     margin: 47px 0 112px;
+
+    @include mobile {
+        margin: 47px 0 40px;
+    }
 }
 
 .registration__link-img {
@@ -40,6 +52,7 @@
     height: 45px;
     margin-bottom: 20px;
     padding-left: 17px;
+    border: 1px solid;
 }
 
 .registration__title {
@@ -57,4 +70,8 @@
     line-height: 19px;
     font-size: 16px;
     margin: 64px 0px 21px;
+
+    @include tablet {
+        margin: 0 0 21px;
+    }
 }

@@ -8,12 +8,28 @@
     justify-content: center;
     text-align: center;
     padding: 104px 0;
+
+    @include tablet {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 0 64px;
+    }
 }
 
 
 .features__item {
     width: 360px;
     height: 134px;
+
+    @include tablet {
+        margin-top: 48px;
+    }
+}
+
+.features__item-center {
+    @include mobile {
+        margin: 46px 0;
+    }
 }
 
 .features__item-title {

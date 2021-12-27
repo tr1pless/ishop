@@ -1,6 +1,15 @@
 .perks__wrp {
     max-width: 652px;
-    margin: 64px 0 0 128px;
+    margin: 64px 0 0;
+
+    @include tablet {
+        width: 47%;
+        margin: 40px 0 0 0;
+    }
+
+    @include mobile {
+        margin: 0 0 100px;
+    }
 }
 
 .perks__title {
@@ -9,6 +18,14 @@
     line-height: 29px;
     text-transform: uppercase;
     margin-bottom: 22px;
+
+    @include tablet {
+        @include font(16px, 19px, 300)
+    }
+
+    @include mobile {
+        @include font(16px, 19px, 300)
+    }
 }
 
 .perks__txt {
@@ -20,6 +37,14 @@
     font-weight: 300;
     font-size: 24px;
     line-height: 29px;
+
+    @include tablet {
+        @include font(16px, 19px, 300)
+    }
+
+    @include mobile {
+        @include font(16px, 19px, 300)
+    }
 }
 
 .perks__list-item {
