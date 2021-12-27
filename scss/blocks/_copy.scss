@@ -9,6 +9,10 @@
     font-size: 16px;
     line-height: 19px;
     color: #FBFBFB;
+
+    @include mobile {
+        display: none;
+    }
 }
 
 .copy-networks {

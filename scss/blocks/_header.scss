@@ -35,6 +35,10 @@
     border: none;
     outline: 1px solid black;
     display: none;
+
+    @include mobile {
+        width: 160px;
+    }
 }
 
 [type="search"]:hover,
@@ -100,4 +104,10 @@
     margin: 37px 0 4px 34px;
     text-transform: uppercase;
     position: relative;
+}
+
+@media (max-width: $mobile-width) {
+    .header__link {
+        display: none;
+    }
 }
