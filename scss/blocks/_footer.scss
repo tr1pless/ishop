@@ -18,10 +18,6 @@
     @include tablet {
         margin: 53px 0 48px;
     }
-
-    @include mobile {
-        margin: 53px auto 48px;
-    }
 }
 
 .footer__wrp-background {
