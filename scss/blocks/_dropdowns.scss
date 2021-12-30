@@ -1,0 +1,9 @@
+.dropdowns-button {
+    background: none;
+    color: black;
+    border: none;
+}
+
+.dropdowns-wrp {
+    @include flex-center;
+}
