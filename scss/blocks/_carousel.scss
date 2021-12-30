@@ -1,0 +1,27 @@
+.carousel {
+    max-width: 600px;
+}
+
+.carousel-item {
+    max-width: 600px;
+    max-height: 725px;
+}
+
+.carousel-wrp {
+    @include flex-center;
+    position: relative;
+    background: #F7F7F7;
+    border: 1px solid lightblue;
+    padding: 11px 0 42px;
+    z-index: 1;
+}
+
+.carousel__arrow {
+    font-size: 40px;
+    color: #F16D7F;
+}
+
+.carousel__arrow-prev {
+    position: absolute;
+    right: 100px;
+}
