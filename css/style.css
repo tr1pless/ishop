@@ -984,6 +984,12 @@ table {
   }
 }
 
+@media (max-width: 767px) {
+  .footer__person {
+    margin: 53px auto 48px;
+  }
+}
+
 .footer__wrp-background {
   background-image: url(../img/fbg.jpg);
   background-repeat: no-repeat;
@@ -1473,5 +1479,218 @@ table {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.item__title-wrp {
+  position: relative;
+  background-color: #F8F3F4;
+  height: 150px;
+}
+
+.item__title {
+  text-transform: uppercase;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 29px;
+  color: #F1808F;
+  padding-top: 60px;
+}
+
+.item__link-list-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item__link-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 60px;
+  text-transform: uppercase;
+}
+
+.item__link {
+  text-decoration: none;
+  color: #636363;
+}
+
+.item__link-pink {
+  color: #F1808F;
+}
+
+.item__arrivals {
+  border: 1px solid #EAEAEA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  z-index: 1;
+  margin: -10px auto 130px;
+  background-color: white;
+  position: relative;
+}
+
+.item__arrivals-title {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+  text-transform: uppercase;
+  color: #F1808F;
+  margin-top: 65px;
+}
+
+.item__arrivals-tiny-hr {
+  width: 63px;
+  color: #F1808F;
+  height: 3px;
+  margin: 12px 0;
+}
+
+.item__arrivals-tiny-title {
+  text-transform: uppercase;
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 300;
+  font-style: normal;
+  margin-bottom: 48px;
+}
+
+.item__arrivals-txt {
+  max-width: 555px;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.item__arrivals-price {
+  font-size: 24px;
+  line-height: 29px;
+  font-weight: 300;
+  font-style: normal;
+  color: #F1808F;
+  margin: 32px 0px 65px;
+}
+
+.item__arrivals-large-hr {
+  border: 1px solid #EAEAEA;
+  width: 641px;
+  margin-bottom: 65px;
+}
+
+.item__button-text {
+  color: #F1808F;
+  font-size: 16px;
+  line-height: 19px;
+  font-weight: 400;
+  font-style: normal;
+  margin: auto;
+}
+
+.item__arrivals-basket {
+  width: 26px;
+  height: 24px;
+  background: none;
+  position: absolute;
+  top: 23%;
+  left: 10%;
+}
+
+.item__arrivals-button {
+  background: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 211px;
+  height: 47px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  border: 1px solid #FF6A6A;
+  margin: 50px 0 65px;
+}
+
+.item__products {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.item__product-txt {
+  margin: 5px;
+}
+
+.carousel {
+  max-width: 600px;
+}
+
+.carousel-item {
+  max-width: 600px;
+  max-height: 725px;
+}
+
+.carousel-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+  background: #F7F7F7;
+  border: 1px solid lightblue;
+  padding: 11px 0 42px;
+  z-index: 1;
+}
+
+.carousel__arrow {
+  font-size: 40px;
+  color: #F16D7F;
+}
+
+.carousel__arrow-prev {
+  position: absolute;
+  right: 100px;
+}
+
+.dropdowns-button {
+  background: none;
+  color: black;
+  border: none;
+}
+
+.dropdowns-wrp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
