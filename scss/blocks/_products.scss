@@ -37,7 +37,7 @@
     }
 
     @include mobile {
-        width: 95%;
+        // width: 95%;
         max-height: 580px;
         margin: 0 0 16px 0;
     }
@@ -155,4 +155,10 @@
 .product__link-wrp {
     text-align: center;
     margin: 49px 0 96px;
+}
+
+@media (max-width: 1400px) {
+    .product__item-third {
+        display: none;
+    }
 }
