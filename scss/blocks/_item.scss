@@ -112,8 +112,23 @@
 .item__products {
     display: flex;
     justify-content: space-between;
+
+    @include mobile {
+        display: flex;
+        flex-direction: column;
+        max-width: 358px;
+        align-items: center;
+    }
 }
 
 .item__product-txt {
     margin: 5px;
+}
+
+.item__product-items {
+    margin-bottom: 130px;
+
+    @include mobile {
+        margin-bottom: 64px;
+    }
 }
