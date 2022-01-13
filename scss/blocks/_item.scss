@@ -11,12 +11,21 @@
     line-height: 29px;
     color: $pink-text;
     padding-top: 60px;
+
+    @include mobile {
+        padding-top: 24px;
+    }
 }
 
 .item__link-list-wrp {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+
+    @include mobile {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 .item__link-list {
